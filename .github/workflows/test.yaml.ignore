@@ -1,0 +1,5 @@
+on: ['push']
+
+jobs:
+  build-docs:
+    uses: 'hyperupcall/hyperupcall-action/.github/workflows/bats.yml@7ddb9d630de417de72a534832a05b1b6b4b97a96'

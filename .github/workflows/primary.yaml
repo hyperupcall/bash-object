@@ -1,0 +1,12 @@
+name: 'Primary'
+
+on: ['push']
+
+jobs:
+  first:
+    runs-on: 'ubuntu-20.04'
+    steps:
+      - uses: 'hyperupcall/hyperupcall-action@6eb17b7873f10b623a9302bdeba6d43a3a8c6968'
+        with:
+          milliseconds: 400
+          myToken: '{{ github.token }}'

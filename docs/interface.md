@@ -1,6 +1,8 @@
 # Interface
 
-The `bobject` command generally allows you to 'set' and 'get' different types of variables from some object hierarchy (think JSON object)
+The `bobject` command generally allows you to 'set' and 'get' different types of variables from some object hierarchy (think JSON object).
+
+The interface has a thin-contract design, meaning it is quite conservative in what it will accept; anything even slightly incorrect will print an error
 
 ## `bobject get-*`
 

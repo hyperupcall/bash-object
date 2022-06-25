@@ -1,0 +1,9 @@
+name: Build Documentation
+
+on: ['push']
+
+jobs:
+  build-docs:
+    uses: 'hyperupcall/hyperupcall-action/.github/workflows/shared-docs.yml@a3fdff46b84225dcbb4e5a9afbaacdfcf6fb2805'
+    with:
+      repoName: bash-object
